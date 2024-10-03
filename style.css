@@ -2,3 +2,24 @@
     margin: 0;
     padding: 0;
 }
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.logo-color{
+    color: coral;
+}
+.nav-items ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    gap: 10px;
+}
